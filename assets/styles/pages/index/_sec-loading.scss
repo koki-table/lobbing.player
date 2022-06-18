@@ -1,0 +1,87 @@
+body {
+  opacity: 1;
+  transition: ease-in-out 1.4s;
+}
+
+.sec-loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 30px;
+  background-color: #f7f7f7;
+
+  @include media-breakpoint-up(md) {
+    padding-bottom: 60px;
+  }
+
+  .button {
+    width: 30%;
+    height: 2rem;
+    margin: 0 auto;
+  }
+
+  #logo .st0 {
+    fill: transparent;
+    stroke: #222;
+    stroke-width: 1px;
+  }
+
+  svg {
+    width: 130px;
+
+    @include media-breakpoint-up(md) {
+      width: 15em;
+    }
+  }
+
+  &.end {
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: ease-in-out 0.3s;
+    -moz-transition: ease-in-out 0.3s;
+    -ms-transition: ease-in-out 0.3s;
+    -o-transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.3s;
+  }
+
+  &--last {
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: ease-in-out 0.3s;
+    -moz-transition: ease-in-out 0.3s;
+    -ms-transition: ease-in-out 0.3s;
+    -o-transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.3s;
+
+    #logo--another .st1 {
+      fill: transparent;
+      stroke: #222;
+      stroke-width: 1px;
+    }
+
+    svg {
+      width: 220px;
+
+      @include media-breakpoint-up(md) {
+        width: 25em;
+      }
+    }
+
+    &.is-active {
+      visibility: visible;
+      opacity: 1;
+      -webkit-transition: ease-in-out 0.3s;
+      -moz-transition: ease-in-out 0.3s;
+      -ms-transition: ease-in-out 0.3s;
+      -o-transition: ease-in-out 0.3s;
+      transition: ease-in-out 0.3s;
+    }
+  }
+}

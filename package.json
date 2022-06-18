@@ -24,7 +24,7 @@
     "custom-event-polyfill": "^1.0.6",
     "element-closest": "^3.0.1",
     "fibers": "^5.0.1",
-    "firebase": "^9.6.10",
+    "firebase": "9.6.10",
     "firebase-tools": "^10.5.0",
     "focus-trap": "^4.0.2",
     "gsap": "^3.9.1",

@@ -1,6 +1,7 @@
 import anime from 'animejs/lib/anime.es.js'
 import AnotherLink from '../modules/_AnotherLink'
 import Question from '../modules/_Question'
+import AnswerData from '../modules/_AnswerData'
 // import Rellax from 'rellax'
 
 // ローディングアニメーション/////////////////////////////////////////////////
@@ -91,3 +92,10 @@ window.addEventListener('scroll', myFunc, false)
 // 別リンク遷移の際のアニメーション////////////////////////////////////////////
 const anotherLink = new AnotherLink()
 anotherLink.init()
+
+// 答えのデータを取得
+const answerData = new AnswerData()
+answerData.fetchJSONFile('/api/data/answerData.json', function(data) {
+  // do something with your data
+  console.log(data)
+})

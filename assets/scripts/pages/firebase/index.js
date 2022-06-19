@@ -7,15 +7,13 @@ import { getAnalytics } from 'firebase/analytics'
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: 'AIzaSyBkzyX8n7Lcf8qlGum6dhPOvTP1iM-bn8E',
-  authDomain: 'lobbing-worksheet.firebaseapp.com',
-  databaseURL:
-    'https://lobbing-worksheet-default-rtdb.asia-southeast1.firebasedatabase.app',
-  projectId: 'lobbing-worksheet',
-  storageBucket: 'lobbing-worksheet.appspot.com',
-  messagingSenderId: '823810960766',
-  appId: '1:823810960766:web:4ef91563101b53d281d72f',
-  measurementId: 'G-9FBWE5CR9Y'
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_FIREBASE_APP_ID,
+  measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID
 }
 
 // Initialize Firebase

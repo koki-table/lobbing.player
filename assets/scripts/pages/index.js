@@ -1,13 +1,11 @@
 import anime from 'animejs/lib/anime.es.js'
 import AnotherLink from '../modules/_AnotherLink'
 import Question from '../modules/_Question'
-import AnswerData from '../modules/_AnswerData'
 // import Rellax from 'rellax'
 
 // ローディングアニメーション/////////////////////////////////////////////////
 // eslint-disable-next-line no-unused-vars
 const logo = document.getElementById('logo')
-// const startAnimation = document.getElementById('startAnimation')
 
 window.onload = function() {
   // timelineデフォルトのパラメーターを設定
@@ -67,20 +65,13 @@ question.init()
 const myFunc = function() {
   const target = document.getElementsByClassName('scroll-target')
   const trigger = document.getElementsByClassName('scroll-trigger')
-  // const position = Math.floor(window.innerHeight * 0.9)
-  // const positionRemove = Math.floor(window.innerHeight * 0.9)
-  // let e = 800
   let position = window.scrollY
 
   for (let i = 0; i < target.length; i++) {
-    // console.log(target.length)
     let offsetTop = Math.floor(trigger[i].getBoundingClientRect().top)
-    // let offsetTop = Math.floor(target[i].getBoundingClientRect().bottom)
-
     if (offsetTop < position) {
       target[i].classList.add('is-active')
     }
-
     if (offsetTop > position) {
       target[i].classList.remove('is-active')
     }
@@ -92,10 +83,3 @@ window.addEventListener('scroll', myFunc, false)
 // 別リンク遷移の際のアニメーション////////////////////////////////////////////
 const anotherLink = new AnotherLink()
 anotherLink.init()
-
-// 答えのデータを取得
-const answerData = new AnswerData()
-answerData.fetchJSONFile('/api/data/answerData.json', function(data) {
-  // do something with your data
-  console.log(data)
-})

@@ -1,4 +1,4 @@
-export default class AnswerData {
+export default class DataJson {
   fetchJSONFile(path, callback) {
     var httpRequest = new XMLHttpRequest()
     httpRequest.onreadystatechange = function() {

@@ -1,11 +1,19 @@
 [
 	{
-		"text": "damidamidamidamidamidamidamidamidamidamidamidami",
-		"img": "imgURL",
+		"title": "000000",
+		"text": "damisami000000",
+		"img": "/assets/images/pages/index/01.jpg",
 		"link": "url//////////url"
 	},
 	{
-		"text": "damidamidamidamidamidamidamidamidamidamidamidami",
+		"title": "キョウヒョウネオ  1",
+		"text": "だみだみだみ01",
+		"img": "/assets/images/pages/index/01.jpg",
+		"link": "url//////////url"
+	},
+	{
+		"title": "キョウヒョウネオ  2",
+		"text": "だみだみだみ02だみだみだみ02だみだみだみ02だみだみだみ02だみだみだみ02だみだみだみ02",
 		"img": "imgURL",
 		"link": "url//////////url"
 	},

@@ -25,7 +25,7 @@
 
       .mv {
         position: relative;
-        display: none;
+        // display: none;
 
         @keyframes scroll-anim {
           100% {
@@ -339,7 +339,7 @@
     }
 
     &__body {
-      display: none;
+      // display: none;
       padding: 80px 0;
       font-size: 5.1vw;
       line-height: 1.7;
@@ -351,7 +351,7 @@
       }
 
       .content {
-        display: none;
+        // display: none;
         width: 89.3333333333vw;
         padding: 4.5333333333vw 5.3333333333vw 5.5666666667vw;
         margin: 0 auto 20px;

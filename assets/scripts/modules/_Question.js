@@ -1,4 +1,5 @@
 import _ from 'lodash'
+import AnswerData from './_AnswerJson'
 
 export default class Question {
   constructor() {
@@ -9,9 +10,6 @@ export default class Question {
     // questionとanswerの画面切り替えのため、値取得
     this.containerQuestion = document.querySelector('[data-question-container]')
     this.secAnswer = document.querySelector('[data-sec-answer]')
-    this.Answer = document.querySelector('[data-answer]')
-    this.bodyAnswer = document.querySelector('[data-answer-body]')
-    this.bodyAnswerText = document.querySelector('[data-answer-text-target]')
     this.btn = document.getElementsByClassName('btn')
     this.count = 0
 
@@ -21,6 +19,10 @@ export default class Question {
     this.pagenation03 = document.querySelector('[data-pagenation03]')
     this.pagenation04 = document.querySelector('[data-pagenation04]')
     this.pagenation05 = document.querySelector('[data-pagenation05]')
+
+    // 答えのデータを取得
+    this.answerData = new AnswerData()
+    this.secAnswer = document.getElementById('sec-answer')
   }
 
   init() {
@@ -59,20 +61,26 @@ export default class Question {
         break
       } else if (this.count === 4) {
         this.pagenation05.classList.add(config.activeClass)
+        // answerデータをすべて取得
+        this.answerData.init()
         break
       } else if (this.count === 5) {
         this.containerQuestion.classList.remove(config.activeClass)
-        this.secAnswer.classList.add(config.activeClass)
-        this.Answer.classList.add(config.activeClass)
-        const index = e.currentTarget.getAttribute('data-question-trigger')
-        const target = document.querySelector(
-          `[data-answer-text-target="${index}"]`
-        )
-        target.classList.add(config.activeClass)
+
+        // 最後に回答したdataを取得
+        var indexSelect = e.currentTarget.getAttribute('data-question-trigger')
+
+        console.log(indexSelect)
+
         setTimeout(function() {
-          const bodyAnswer = document.querySelector(`[data-answer-body]`)
-          bodyAnswer.classList.add(config.activeClass)
-        }, 100)
+          const secAnswer = document.querySelector('[data-sec-answer]')
+          secAnswer.classList.add(config.activeClass)
+
+          const Answer = document.querySelector(
+            `[data-answer-target="${indexSelect}"]`
+          )
+          Answer.classList.add(config.activeClass)
+        }, 300)
       }
     }
     const index = e.currentTarget.getAttribute('data-question-trigger')

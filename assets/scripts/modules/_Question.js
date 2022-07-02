@@ -46,7 +46,7 @@ export default class Question {
     // selectボタンを押した回数を監視して、条件分岐
     for (let i = 0; i < this.btn.length; i++) {
       this.count++
-      console.log(this.count)
+      // console.log(this.count)
       if (this.count === 1) {
         setTimeout(function(e) {
           const pagenation02 = document.querySelector('[data-pagenation02]')
@@ -70,7 +70,7 @@ export default class Question {
         // 最後に回答したdataを取得
         var indexSelect = e.currentTarget.getAttribute('data-question-trigger')
 
-        console.log(indexSelect)
+        // console.log(indexSelect)
 
         setTimeout(function() {
           const secAnswer = document.querySelector('[data-sec-answer]')

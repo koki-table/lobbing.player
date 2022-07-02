@@ -2,39 +2,199 @@
 	{
 		"title": "000000",
 		"text": "damisami000000",
-		"img": "/assets/images/pages/index/01.jpg",
-		"link": "url//////////url"
+		"img": "/assets/images/pages/index/youtube.jpg",
+		"link": "https://www.youtube.com/watch?v=XuXlhJbHjo0&list=RDXuXlhJbHjo0&start_radio=1"
 	},
 	{
-		"title": "キョウヒョウネオ  1",
-		"text": "だみだみだみ01",
-		"img": "/assets/images/pages/index/01.jpg",
-		"link": "url//////////url"
+		"title": "メイス",
+		"text": "",
+		"img": "/assets/images/pages/index/youtube.jpg",
+		"link": "https://youtu.be/EGr5l36vJEw"
 	},
 	{
-		"title": "キョウヒョウネオ  2",
-		"text": "だみだみだみ02だみだみだみ02だみだみだみ02だみだみだみ02だみだみだみ02だみだみだみ02",
-		"img": "imgURL",
-		"link": "url//////////url"
+		"title": "ボル",
+		"text": "",
+		"img": "/assets/images/pages/index/youtube.jpg",
+		"link": "https://youtu.be/tO9Qo5kAQbs"
 	},
-    {
-		"text": "damidamidamidamidamidamidamidamidamidamidamidami",
-		"img": "imgURL",
-		"link": "url//////////url"
+	{
+		"title": "馬琳",
+		"text": "",
+		"img": "/assets/images/pages/index/youtube.jpg",
+		"link": "https://youtu.be/J7Lared1J4M"
 	},
-    {
-		"text": "damidamidamidamidamidamidamidamidamidamidamidami",
-		"img": "imgURL",
-		"link": "url//////////url"
+	{
+		"title": "李平",
+		"text": "",
+		"img": "/assets/images/pages/index/youtube.jpg",
+		"link": "https://youtu.be/qxixkF4Gphc"
 	},
-    {
-		"text": "damidamidamidamidamidamidamidamidamidamidamidami",
-		"img": "imgURL",
-		"link": "url//////////url"
+	{
+		"title": "馬龍",
+		"text": "",
+		"img": "/assets/images/pages/index/youtube.jpg",
+		"link": "https://youtu.be/tO9Qo5kAQbs"
 	},
-    {
-		"text": "damidamidamidamidamidamidamidamidamidamidamidami",
-		"img": "imgURL",
-		"link": "url//////////url"
+	{
+		"title": "許听",
+		"text": "",
+		"img": "/assets/images/pages/index/youtube.jpg",
+		"link": "https://youtu.be/Id8wRGTdnA0"
+	},
+	{
+		"title": "英田理志",
+		"text": "",
+		"img": "/assets/images/pages/index/youtube.jpg",
+		"link": "https://youtu.be/vlLBleofbvA"
+	},
+	{
+		"title": "カナック・ジャー",
+		"text": "",
+		"img": "/assets/images/pages/index/youtube.jpg",
+		"link": "https://youtu.be/W9RjGbc5xnI"
+	},
+	{
+		"title": "ヨルジッチ",
+		"text": "",
+		"img": "/assets/images/pages/index/youtube.jpg",
+		"link": "https://youtu.be/rA_AouSPzjU"
+	},
+	{
+		"title": "オフチャロフ",
+		"text": "",
+		"img": "/assets/images/pages/index/youtube.jpg",
+		"link": "https://youtu.be/AwQHfGmexuo"
+	},
+	{
+		"title": "モーレゴード",
+		"text": "",
+		"img": "/assets/images/pages/index/youtube.jpg",
+		"link": "https://youtu.be/d7x8TbMQGEg"
+	},
+	{
+		"title": "チウ・ダン",
+		"text": "",
+		"img": "/assets/images/pages/index/youtube.jpg",
+		"link": "https://youtu.be/d7x8TbMQGEg"
+	},
+	{
+		"title": "カルデラノ",
+		"text": "",
+		"img": "/assets/images/pages/index/youtube.jpg",
+		"link": "https://youtu.be/qVk3k3DOiOM"
+	},
+	{
+		"title": "カルデラノ",
+		"text": "",
+		"img": "/assets/images/pages/index/youtube.jpg",
+		"link": "https://youtu.be/dfZA-5acIG8"
+	},
+	{
+		"title": "カルデラノ",
+		"text": "",
+		"img": "/assets/images/pages/index/youtube.jpg",
+		"link": "https://youtu.be/i5km6-NFb_c"
+	},
+	{
+		"title": "工藤真弘",
+		"text": "",
+		"img": "/assets/images/pages/index/youtube.jpg",
+		"link": "https://youtu.be/y7QEFUVjp5I"
+	},
+	{
+		"title": "モーレゴード",
+		"text": "",
+		"img": "/assets/images/pages/index/youtube.jpg",
+		"link": "https://youtu.be/7O5dp0fOYjo"
+	},
+	{
+		"title": "小西海偉",
+		"text": "",
+		"img": "/assets/images/pages/index/youtube.jpg",
+		"link": "https://youtu.be/4Uv4OkTG7Xw"
+	},
+	{
+		"title": "ファルク",
+		"text": "",
+		"img": "/assets/images/pages/index/youtube.jpg",
+		"link": "https://youtu.be/H3aLDGukiJ8"
+	},
+	{
+		"title": "A.ルブラン",
+		"text": "",
+		"img": "/assets/images/pages/index/youtube.jpg",
+		"link": "https://youtu.be/lF5tT16ck2o"
+	},
+	{
+		"title": "イェレル",
+		"text": "",
+		"img": "/assets/images/pages/index/youtube.jpg",
+		"link": "https://youtube.com/shorts/OaNWbLe6-fM?feature=share"
+	},
+	{
+		"title": "ノシャド・アラミヤン",
+		"text": "",
+		"img": "/assets/images/pages/index/youtube.jpg",
+		"link": "https://youtu.be/UlHHVCh7mKc"
+	},
+	{
+		"title": "ハオ師",
+		"text": "",
+		"img": "/assets/images/pages/index/youtube.jpg",
+		"link": "https://youtu.be/B0Y19SDWqqQ"
+	},
+	{
+		"title": "フランチスカ",
+		"text": "",
+		"img": "/assets/images/pages/index/youtube.jpg",
+		"link": "https://youtu.be/LKMXzweqh7g"
+	},
+	{
+		"title": "カナック・ジャー",
+		"text": "",
+		"img": "/assets/images/pages/index/youtube.jpg",
+		"link": "https://youtu.be/aEruhsz3x80"
+	},
+	{
+		"title": "張本智和",
+		"text": "",
+		"img": "/assets/images/pages/index/youtube.jpg",
+		"link": "https://youtu.be/050DW4hshkM"
+	},
+	{
+		"title": "カラカセビッチ",
+		"text": "",
+		"img": "/assets/images/pages/index/youtube.jpg",
+		"link": "https://youtu.be/84SXIlAgiGU"
+	},
+	{
+		"title": "トキッチ",
+		"text": "",
+		"img": "/assets/images/pages/index/youtube.jpg",
+		"link": "https://youtu.be/-rkzk2MFaGA"
+	},
+	{
+		"title": "さくまぶらざあず",
+		"text": "",
+		"img": "/assets/images/pages/index/youtube.jpg",
+		"link": "https://youtu.be/rxZHy08hsaI"
+	},
+	{
+		"title": "工藤真弘",
+		"text": "",
+		"img": "/assets/images/pages/index/youtube.jpg",
+		"link": "https://youtu.be/y7QEFUVjp5I"
+	},
+	{
+		"title": "丸裕一郎",
+		"text": "",
+		"img": "/assets/images/pages/index/youtube.jpg",
+		"link": "https://youtu.be/zKioOrCUA3k"
+	},
+	{
+		"title": "生野kazuki",
+		"text": "",
+		"img": "/assets/images/pages/index/youtube.jpg",
+		"link": "https://youtu.be/5gR7sppmZJw"
 	}
 ]

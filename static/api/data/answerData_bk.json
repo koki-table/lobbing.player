@@ -1,0 +1,40 @@
+[
+	{
+		"title": "000000",
+		"text": "damisami000000",
+		"img": "/assets/images/pages/index/youtube.jpg",
+		"link": "https://www.youtube.com/watch?v=XuXlhJbHjo0&list=RDXuXlhJbHjo0&start_radio=1"
+	},
+	{
+		"title": "キョウヒョウネオ  1",
+		"text": "だみだみだみ01",
+		"img": "/assets/images/pages/index/youtube.jpg",
+		"link": "https://www.youtube.com/watch?v=XuXlhJbHjo0&list=RDXuXlhJbHjo0&start_radio=1"
+	},
+	{
+		"title": "キョウヒョウネオ  2",
+		"text": "だみだみだみ02だみだみだみ02だみだみだみ02だみだみだみ02だみだみだみ02だみだみだみ02",
+		"img": "imgURL",
+		"link": "url//////////url"
+	},
+    {
+		"text": "damidamidamidamidamidamidamidamidamidamidamidami",
+		"img": "imgURL",
+		"link": "url//////////url"
+	},
+    {
+		"text": "damidamidamidamidamidamidamidamidamidamidamidami",
+		"img": "imgURL",
+		"link": "url//////////url"
+	},
+    {
+		"text": "damidamidamidamidamidamidamidamidamidamidamidami",
+		"img": "imgURL",
+		"link": "url//////////url"
+	},
+    {
+		"text": "damidamidamidamidamidamidamidamidamidamidamidami",
+		"img": "imgURL",
+		"link": "url//////////url"
+	}
+]
